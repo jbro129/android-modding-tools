@@ -1,0 +1,3 @@
+    invoke-static {p0}, Lcom/gbo/popup;->Start(Landroid/content/Context;)V
+
+	invoke-static {p0}, Lcom/gbo/banner;->gboCustomImage(Landroid/content/Context;)V

@@ -1,0 +1,15 @@
+(Decompile/Compile)
+
+-> Drag And Drop/Browse Android APK/Android JAR/Android DEX File,Make Sure Android JAR Has Classes.dex In It ie. Is Deodexed.
+
+-> Select Parameters Decompile Classes/Resources,Option Resources Gets Automatically Disabled When JAR/DEX Is Found As Input.
+
+-> Option "Decompile" To Decompile APK/JAR/DEX File Based On Above Parameters,If No Parameter Is Selected File Gets Extracted Only Which Gets Output As "File_Name" Folder In Working Location ie. Toolkit Root Directory.
+
+-> Option "Compile" To Compile The APK/JAR/DEX,In Case Of JAR/DEX Only Classes.dex Are Compiled.
+
+-> Logs Box Only Shows Error When Found,If There Are No Error Shown You Will Get Desired Output.
+
+-> Clear Entry Option Clears The Present Input File Location From The Box.
+
+NOTE :- While Compiling Make Sure The Same File Is Loaded In The "Input Box" Which Was Decompiled,If Its Null Or Other File Loaded Compile Won't Work.

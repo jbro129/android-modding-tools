@@ -1,0 +1,80 @@
+<config>
+	<!-- Made by Nero https://www.youtube.com/channel/UC_GRM3rUIn3V0jBAUDd7CUg -->
+	<!-- DOC: http://www.allatori.com/doc.html -->
+	
+    <input>
+        <jar in="i.jar" out="o.jar"/>
+    </input>
+	
+	<classpath>
+        <jar name="libraries/**/*.jar"/>
+	</classpath>
+
+	 <!-- Keep class names -->
+    <keep-names>
+        <class template="class net.minecraft*"/>
+        <class template="class Main"/>
+        <class template="class InjectionAPI">
+            <field template="public static void inject*(*)"/>
+            <method template="public static void inject*(*)"/>
+        </class>
+		
+		<class template="class com.clientlauncher.ClientlauncherAPI">
+            <method template="public static String getLauncherUsername*(*)"/>
+			<method template="public static String getLauncherVersion*(*)"/>
+        </class>
+    </keep-names>
+
+    <!-- Configuration properties, all properties are optional -->
+    <!-- General properties, we recommend to use these two properties -->
+    <property name="log-file" value="renaming-log.xml"/>
+	
+	<property name="random-seed" value="http://https://Base64"/>
+
+    <!-- String encryption -->
+    <property name="string-encryption" value="disable"/> <!-- value="maximum/maximum-with-warnings/disable/enable" -->
+	<!--<property name="string-encryption" value="maximum" apply2class="class ambien*"/> --> <!-- value="maximum/maximum-with-warnings/disable/enable" -->
+	<property name="string-encryption-type" value="fast"/> <!-- value="fast/strong" -->
+    <property name="string-encryption-version" value="v4"/> <!-- value="v4/v3" -->
+	
+	<property name="string-encryption" value="disable" apply2class="class net.minecraft*"/>	
+	<property name="string-encryption" value="disable" apply2class="class optifine*"/>	
+	
+	<!-- Control flow obfuscation -->
+	<property name="control-flow-obfuscation" value="enable"/> <!-- value="disable/enable" -->
+    <property name="extensive-flow-obfuscation" value="normal"/> <!-- value="normal/disable/maximum" -->
+
+    <!-- Renaming -->
+    <property name="default-package" value="tv.stream.key.qq.tp"/> <!-- value="custom/" -->
+    <property name="force-default-package" value="disable"/> <!-- value="enable/disable" -->
+    <property name="packages-naming" value="abc"/> <!-- value="abc/123/keep" -->
+    <property name="classes-naming" value="iii"/> <!-- value="compact/iii/abc/123/windows/unique/keep-$-sign" -->
+    <property name="methods-naming" value="iii"/> <!-- value="compact/iii/abc/123/keywords/real/unique" -->
+	<property name="fields-naming" value="iii"/> <!-- value="compact/iii/abc/123/keywords/real" -->
+    <property name="classes-naming-prefix" value="iIiIi"/>
+	<property name="methods-naming-prefix" value="iIili"/>
+	<property name="fields-naming-prefix" value="iIiI"/>
+    <property name="version-marker" value="iIiI"/>
+
+    <property name="update-resource-names" value="enable"/>
+    <property name="update-resource-contents" value="enable"/>
+	
+    <!-- Other -->
+	<watermark key="Ambien" value="http://https://Base64"/>
+
+    <property name="member-reorder" value="enable"/>
+    <property name="finalize" value="disable"/>
+    <property name="synthetize-methods" value="all"/>
+    <property name="synthetize-fields" value="all"/>
+	<property name="remove-toString" value="disable"/>
+	<property name="generics" value="remove"/>
+    <property name="line-numbers" value="remove"/> 
+	
+<!--<property name="local-variables-naming" value="abc"/> --> <!-- value="optimize/single-name/abc/remove/keep-parameters/keep"
+    <property name="inner-classes" value="remove"/>  --> <!-- value="keep/remove" 
+    <property name="remove-toString" value="enable"/> 
+    <property name="output-jar-compression-level" value="9"/> --> <!-- value="0-9"
+    <expiry date="2017/01/01" string="EXPIRED!"/> -->
+	
+
+</config>

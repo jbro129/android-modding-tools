@@ -1,0 +1,13 @@
+(Dex2Jar/Jar2Dex)
+
+-> Drag And Drop/Browse DEX/JAR File.
+
+-> Option "Dex2Jar" To Convert Dex To Jar To Be Able To Load In Java Decompilers.
+
+-> Option "Jar2Dex" To Convert Back Jar To Dex File.
+
+-> Option "Open JDGui" Will Open JDGui Java Decompiler Bundled With Toolkit.
+
+-> Logs Box Only Shows Error When Found,If There Are No Error Shown You Will Get Desired Output.
+
+-> Clear Entry Option Clears The Present Input File Location From The Box.

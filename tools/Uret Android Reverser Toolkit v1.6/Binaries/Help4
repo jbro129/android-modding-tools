@@ -1,0 +1,31 @@
+(ADB)
+
+-> Before Starting ADB Operations It Is Recommended To Click "Connect Device" First.
+
+-> All Output Is Redirected To Logs Box.
+
+-> To Take Logcat Its Recommended To "Clear Logcat Buffer" Then Launch App On Device When App Crashes Come And Take Logcat So No Extra Logs Appear.
+
+-> Commands Without Asterisk ie. * Does Not Need Parameters.
+
+-> Commands With One Asterisk Need One Parameter ie. Parameter 1.
+  1. Install :- Need The APK Loaded In Parameter 1.
+  eg. Parameter 1 :- "C:\New Folder\App v1.0.apk"
+
+  2. Uninstall :- Need Application Package Name In Parameter 1,That App Should Be Installed On Device.
+  eg. Parameter 1 :- "com.jasi2169.apk_to_uninstall.package.name"
+
+  3. Backup :- Need Application Package Name To Backup Its Apk And Data Files,That App Should Be Installed On Device.
+  eg. Parameter 1 :- "com.jasi2169.app"
+  Note :- use "-all" To Backup All Apps (User + System)
+
+  4. Restore :- Need The "App_Package_Name.uret" Loaded Into Parameter 1 Which Toolkit Saved When Taking Backup.
+  eg. Parameter 1 :- "com.google.services.uret"
+  Note :- ".uret" Is Extension Given To All Backups While Taking And Should Not Be Changed.
+
+  5. Pull :- Need Exact Location On Device Of Directory/File To Pull It To PC.
+  eg. Parameter 1 :- "/data/app/com.google.app-1.apk"
+	  
+-> Commands With Two Asterisk Need Both Parameters ie. Parameter 1 And Parameter 2.
+  1. Push :- In Parameter 1 Load File To Push To Device, In Parameter 2 Put Exact Location To Push The File In Device.
+  eg. Parameter 1 :- "C:\file_to_be_copied.zip" , Parameter 2 :- "/sdcard/file_copied.zip"

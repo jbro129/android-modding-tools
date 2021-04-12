@@ -1,0 +1,19 @@
+apkanalyser-5.2-exec.jar
+- A tool for seeing from methods/fields are used.
+
+1. Choose File->Set Paths
+A. On Classpaths on section "MIDlets or APK" click "Add..."
+to add your apk to be analysed
+
+B. In Android SDK tab:
+Invalid Path, please point to SDK/platforms/android-xx
+in this case to Android-25 directory
+Select the Android SDk path to Android-25 directory
+
+2. Click File->Analyse
+It may take some time!
+
+3. You should see a + before each package/method/field
+Select the target method and from View menu select "Show graphs for local callers"
+On the graph click on the method to see from where the method is called.
+

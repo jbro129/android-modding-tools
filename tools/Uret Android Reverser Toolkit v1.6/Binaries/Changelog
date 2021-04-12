@@ -1,0 +1,83 @@
+=============================================================
+ >>>>>>>>>> Changelog <<<<<<<<<<
+=============================================================
+v1.6 (Released On 20/Jun/2017)
+
+- Downgraded Baksmali/Smali Binaries Which Are Stable With Toolkit.
+- Added Settings Tab.
+- Added Options In Settings To Disable Fade In/Fade Out Effect On Launch/Exit And Disable Welcome Toast At Right Bottom On Launch.
+- Added Shadow Effects On Items.
+- Bugs Fixed.
+=============================================================
+v1.5 (Released On 13/Jun/2017)
+
+- Updated Compatibility With Java 8.
+- Updated Apktool, Smali, Baksmali Binaries To Latest Version.
+- Updated Donate Link.
+- Fixed Signing Of APKs With Keystore, You Can Use Both OpenSSL Certificates With PEM And PK8 Files (Need To Replace Old Files Present In Binaries Folder) Or Can Use Custom Keystore Created With Keytool.
+- Fixed Freezing While Compiling On Some APKs Which Were Having Large Size.
+- Fixed Some Typos.
+=============================================================
+v1.4 (Released On 13/Sep/2016)
+!!..Previous v1.3 Had Corrupt Library Which Will Cause Problems In Future, All Users Should Update To v1.4 Version..!!
+
+- Add Custom Keystore Option,Now You Can Sign APKs With Your Own Digital Signature.
+- Add Option To Create Keystore On The Go With Your Own Custom Details.
+- Custom Keystore Can Be Set To Default As Well As Can Be Reset.
+- Settings Saved Now Stored In App Local Directory Of Current User For Better Handling.
+- Updated Help Files.
+- Fixed Signing Of APKs Which Were Already Signed Before,Leading To Multiple Signature Causing "Parse Error" On Device.
+- Fixed Error "Can't find the file classes.dex" When Decompile Same JAR/DEX Again Which You Already Decompiled As Toolkit Deletes JAR/DEX Directory Before Decompiling Again So When You Decompile Again The Same JAR/DEX Then The Directory Is Deleted And If You Are Inside That Directory In Explorer Then It Will Show Cant Find File As Directory Is Deleted But In Explorer You Are Inside So It Returns As Busy So Directory Cant Be Created Again And Error Thrown Up Has Been Fixed Only Used To Come Up In JAR/DEX File.
+- Required Library Is Now Merged In Main Assembly.
+=============================================================
+v1.3 (Released On 11/Sep/2016)
+!!..This Version Is Built From Scratch..!!
+!!..Detailed Instructions Are Provided For Every Single Task,Read "HELP" Of Every Operations..!!
+!!..I Have Tested It With Every Single Input,If Still There Are Issues (Send Me Error) Or Any Suggestions Then Check Toolkit About > Reach Me..!!
+
+- Change Icons.
+- New Professional Metro UI Hell Yeah!,Removed iTunes UI.
+- UI Is Divided Into 2 Tabs Now As Simple And Advanced (Suggested By whoknows@BlackStorm) Hopefully This Wont Make UI Messed Up In Single Place Like Before.
+- Added Option To Select Theme Cool Right?.
+- Updated Apktool,Smali And Baksmali (You Can Also Update Yourself With Latest When Update Comes And Replace It In Binaries/Here Folder).
+- Implemented Dex Manager Feature (Dex Manager Is Not Supported Anymore) ie. Now Directly Classes.dex Can Be Decompiled And Compiled Useful When Apktool Fails To Decompile APK Even When We Only Want Classes To Decompile Its Due To Trick By Some Packers You Know Which One ;) (In That Case Drag Classes Out And Drop).
+- Fixed Issue When Both The Resources And Classes Checkboxes Were Unchecked But Still Resources Was Getting Decompiled My Bad.
+- Many Major Bugs Fixed Which Were Leading To Crashes Sometimes.
+- Code Is Optimized A LOT So Hopefully Better Speed Up.
+- Removed Unused Junks.
+- Updated Help Instructions.
+- Check For Updates Added.
+- All Fancy Stuff From Previous Version Removed.
+- Error Box And Logs Box Are Merged Now,Everything Shown In One Box As Output Or Error Cool Isn't It ?.
+- Debugger Checks Fixed,Also AV False Positive Fixed.
+- Minor Bugs Fixed (Which Could have Created Errors In Some OS).
+=============================================================
+v1.2 (Released On 26/Feb/2016)
+!!..It Is Recommended To Extract Toolkit On Desktop For Your Work,So It Works Reliable,As Putting It In Logical Drives Like D,E Etc Will Cause Permission Denied Problems,Or Run As Admin..!!
+!!..In Case Of Java Error,Make Sure You Add JAVA_HOME Environment In Your PC..!!
+
+- Added ADB Commands Like Push,Pull,Install,Uninstall,Backup,Restore,Reboot Device,Reboot Bootloader,Reboot Recovery,Clear Logcat Buffer,Take Logcat,Run Shell Etc With One Click.
+- Added Oat2Dex,Odex2Dex.
+- Added Uncompress XZ Of Odex In Samsung Firmwares.
+- Added Logs Box For The Output Of Right Side Panel.
+- Detailed HELP Button For Every Single Task.
+- Fixed Symbols "'!^&" In Apk And Jar Name Causing Problems Being Recognized.
+- Fix Some Delete Actions.
+- On Start It Shows If Java Is Installed Or Not In Logs Box.
+- Refactor Bit Of Code.
+=============================================================
+v1.1 (Released On 23/Feb/2016)
+
+- Fix Dragging/Loading Files From Root Directory Of Toolkit Leading To Errors,Now You Can Load File From Anywhere From PC.
+- Fix The Issue With The File Having Spaces In Name Leading To Errors,Now You Can Load Any Files With Any Name Upto Windows Characters Limit.
+- Fix Issues In Android JAR Processes Leading To "ACCESS Denied" When Directory Was Open.
+- Removed Extra ApkTool.
+- Cross Checked All The Validations And Fixed When Error Found.
+- Fix Loading Speed,Only Takes Small Time On Very First Start To Extract Skin.
+- Minor Other Bugs Fixed And Optimizations.
+- Toolkit Is Fully Stable Now.
+=============================================================
+v1.0 (Released On 22/Feb/2016)
+
+- Initial Release.
+=============================================================

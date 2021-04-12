@@ -1,0 +1,11 @@
+(XZ/Oat2Dex/Odex2Dex)
+
+-> Output Is Redirected To Logs Box.
+
+-> Uncompress XZ Option Uncompress Xz To Odex File Which Are Compressed In Case Of Samsung Firmwares,Other Companies Don't Compress Odex To XZ So They Can Skip It.
+
+-> Oat2Dex (ART) Option Should Be Used When The ODEX File Is OAT File ie. Taken From ART Runtime With Magic Number Elf,Framework Folder Is Not Required.
+Ex :- All Lollipop And Above Are ART,But Kitkat Has Both ART/Dalvik Options So Check Device Developer Settings What Is Selected Or Check Magic Number Before Using.
+
+-> Odex2Dex (Dalvik) Option Should Be Used When The Odex File Is Of Dalvik ie. Has Magic Number Dey,It Also Needs Framework Folder To Convert,Framework Folder Can Be Found In Device Here :- "ROOT/system/framework" Just Copy This Folder To PC And Load It In Framework Folder Box.
+Ex :- All Jelly Bean And Below Are Dalvik,But Kitkat Has Both ART/Dalvik Options So Check Device Developer Settings What Is Selected Or Check Magic Number Before Using.

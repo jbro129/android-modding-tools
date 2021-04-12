@@ -1,0 +1,7 @@
+(Custom Keystore)
+
+- Use The Custom Keystore You Have Or Created By Toolkit To Sign The APK Which Will Become Default Option To Sign The APKs/JARs.
+
+- Keystore Location Should Be Valid And Contain The Keystore File And Alias Should Also Be Same Which You Used While Creating Keystore And Keystore Password As Well.
+
+NOTE :- Keystore Password Not Key Password.

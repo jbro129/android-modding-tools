@@ -1,0 +1,15 @@
+(Sign/Ziplign)
+
+-> Drag And Drop/Browse APK File.
+
+-> Option "Sign" To Sign The APK File (Default Toolkit Digital Signature RSA 1024Bits).
+
+-> Option "Create Keystore" To Create Your Own Digital Signature Based On Your Details.
+
+-> Option "Use Custom Keystore" To Sign The APK File With Any Custom Keystore Or You Can Use Also Use Created Keystore To Sign The Apk,If Its Unchecked Toolkit Will Use Its Own Default Keystore.
+
+-> Option "Ziplign" To Ziplign APK File.
+
+-> Logs Box Only Shows Error When Found,If There Are No Error Shown You Will Get Desired Output.
+
+-> Clear Entry Option Clears The Present Input File Location From The Box.
